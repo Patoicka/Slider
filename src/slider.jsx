@@ -1,34 +1,10 @@
 import React from 'react'
 
-import { data } from './assets/data'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Angular from './assets/images/angular.jpg'
-import jQuery from './assets/images/jquery.jpg'
-import NodeJs from './assets/images/nodejs.jpg'
-import Php from './assets/images/php.jpg'
-import ReactImg from './assets/images/react.jpg'
 
 import 'swiper/css'
 
 export const Slider = () => {
-
-    /*  const slides = [
-         {
-             name: data[0].url
-         },
-         {
-             name: data[1].url
-         },
-         {
-             name: data[2].url
-         },
-         {
-             name: data[3].url
-         },
-         {
-             name: data[4].url
-         }
-     ]; */
 
     return (
         <Swiper
